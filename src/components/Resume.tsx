@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Section, { SectionDesc, SectionIds } from "./Section";
+import Section, { SectionIds } from "./Section";
+import { SectionDesc } from "../utils/SectionDesc.enum";
 
 function Resume() {
   const [editingId, setEditingId] = useState<SectionIds | null>(null);

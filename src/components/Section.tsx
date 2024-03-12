@@ -1,11 +1,6 @@
 import { useState } from 'react';
 import { Input, TextArea } from './Input';
-
-export enum SectionDesc {
-  GeneralInformation = 1,
-  EducationalExperience = 2,
-  PracticalExperience = 3,
-}
+import { SectionDesc } from '../utils/SectionDesc.enum';
 
 export type SectionIds =
   | SectionDesc.GeneralInformation
